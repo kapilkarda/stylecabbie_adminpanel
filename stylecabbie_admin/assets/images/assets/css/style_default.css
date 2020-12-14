@@ -1,0 +1,177 @@
+/* 
+    Document   : style_blue
+    Created on : Nov 22, 2013, 4:27:49 PM
+    Author     : PRAKASAM MATHAIYAN
+    Description:
+        This style is used for change the theme for "Metro Bule" you can change the
+        theme to changging theme_default to theme_blue in head
+*/
+
+
+body{
+    background-color: #ffffff;
+}
+
+
+/*            TOP NAVBAR COLORS             */
+
+.navbar {
+    background: #0f4e74;
+    border-bottom: 4px solid #0b344d;
+}
+
+.navbar .nav>li:active, 
+.navbar .nav li.dropdown.open>.dropdown-toggle, 
+.navbar .nav li.dropdown.active>.dropdown-toggle, 
+.navbar .nav li.dropdown.open.active>.dropdown-toggle, 
+.navbar .toggle-sidebar:active {
+    color: #fff;
+    background: #0b344d;
+}
+
+.dropdown-menu.extended li p {
+    background-color: #0b344d;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-submenu:hover>a,
+.dropdown-submenu:focus>a {
+    background: #0b344d;
+    filter: none;
+}
+
+.dropdown-menu.extended li.footer a {
+    background-color: #e6e7e8;
+    color: #6f6f6f;
+    padding: 8px;
+}
+
+.dropdown-menu.extended li.footer a:hover {
+    background-color: #0b344d;
+    color: #fff;
+}
+
+@media (max-width: 767px){
+    .navbar .container .nav>li>.dropdown-menu.extended>li.footer>a {
+        background-color: #e6e7e8;
+    }
+}
+
+/*            SIDEBAR COLORS             */
+
+#sidebar {
+    background-color: #1570a6;
+    color: #bdb8d7;
+}
+
+#sidebar-content{background: #1570a6;}
+
+#sidebar ul#nav li {
+    //border-bottom: 1px solid #1c95dc;
+    border-top: 1px solid #1c95dc;
+}
+
+#sidebar ul#nav li a,
+#sidebar ul#nav li a i {color: #ffffff;}
+
+#sidebar ul#nav li a:hover, 
+#sidebar ul#nav li a:hover > #sidebar ul#nav li a i {
+    background-color: #12618f;
+    color: #ffffff;
+    
+}
+
+#sidebar ul#nav li.current,
+#sidebar ul#nav li.open {
+    background: #12618f;
+    font-size: 13px;
+}
+
+#sidebar ul#nav li.open a:hover,
+#sidebar ul#nav li.current a:hover {
+    background: #12618f;
+}
+
+#sidebar .selected {
+    background-image: url("../images/sidebar-menu-arrow_blue.png");
+}
+
+#sidebar ul#nav>li.current>a {
+    border-left: 5px solid #00ccff;
+}
+
+#sidebar ul#nav li:first-child{
+    border-top: none !important;
+}
+
+#sidebar ul#nav li.current a,
+#sidebar ul#nav li.current i,
+#sidebar ul#nav li.open a,
+#sidebar ul#nav li.open i{
+    color: #fff;
+}
+
+
+/*   Submenu Colors     */
+
+#sidebar ul#nav ul.sub-menu {
+    background: #1570a6;
+}
+
+#sidebar ul#nav ul.sub-menu li{
+    //border-bottom: 1px solid #423977;
+    border-top: 0px;
+}
+
+#sidebar ul#nav ul.sub-menu li a,
+#sidebar ul#nav ul.sub-menu li i{
+    color: #c3e4f7;
+}
+
+#sidebar ul#nav ul.sub-menu li.current {
+    background: #1b8fd3;
+    color: #ffffff;
+}
+
+#sidebar ul#nav ul.sub-menu li.current a,
+#sidebar ul#nav ul.sub-menu li.current i{
+    color: #ffffff;
+}
+
+#sidebar ul#nav ul.sub-menu li.open {
+    background: #1570a6;
+}
+
+#sidebar ul#nav ul.sub-menu li a:hover {
+    background: #1b8fd3;
+}
+
+/*   Search Box Colors     */
+
+#sidebar .sidebar-search .input-box {
+    border-bottom-color: #c3e4f7 !important;
+}
+
+#sidebar .sidebar-search input,
+#sidebar .sidebar-search .submit {
+    background-color: #1570a6 !important;
+    color: #c3e4f7;
+}
+
+            /*   Main Content Box Colors     */
+
+#content {background-color: #ffffff;}
+
+
+    /*   Pagination Box Colors     */
+
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:focus {
+    background-color: #0f4e74;
+    border-color: #0f4e74;
+}
